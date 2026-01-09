@@ -1,0 +1,13 @@
+<div id="product-card">
+  <div class="img-container">
+      <img [src]="product().imgUrl" alt="product image"/>
+  </div>
+  <div class="info-container">
+    <div id="title">{{product().title}}</div>
+    <div id="description">{{product().description}}</div>
+    <div class="bottom">
+      <div id="price">{{ product().price }}€</div>
+      <button id="btn-buy"><mat-icon class="small-icon">add_shopping_cart</mat-icon></button>
+    </div>
+  </div>
+</div>
